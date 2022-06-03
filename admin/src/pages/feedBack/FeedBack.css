@@ -1,0 +1,76 @@
+.body {
+  flex: 6;
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.contact-box {
+  width: 500px;
+  background-color: rgb(240, 240, 255);
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.form {
+  margin: 35px;
+}
+
+.inputBoxs {
+  margin: 15px 0;
+}
+
+.inputBoxs input {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.inputBoxs input:focus {
+  border: 1px solid #000;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding: 10px;
+  resize: none;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.textarea-field:focus {
+  border: 2px solid #000;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 17px 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

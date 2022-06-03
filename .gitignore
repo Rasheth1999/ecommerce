@@ -1,0 +1,19 @@
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+node_modules
+bower_components
+*.sublime*
+psd
+thumb
+sketch
+client/.env
+.env
+build/
+package-lock.json
+client/package-lock.json
+uploads/
+config/
